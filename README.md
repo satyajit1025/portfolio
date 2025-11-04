@@ -2,6 +2,8 @@
 
 Welcome to the source for my personal portfolio website. This repo contains a modern, glassmorphic portfolio built with plain HTML, CSS and a little JavaScript. It's designed to showcase projects, skills and experience with a polished UI and subtle animations.
 
+URL: https://ssahu-portfolio.netlify.app/
+
 ---
 
 ## Demo
