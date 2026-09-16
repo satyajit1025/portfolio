@@ -32,7 +32,7 @@ npm run dev
 
 Open the local URL printed by Vite, normally `http://localhost:5173`.
 
-The current application requires no environment variables. The 3D model, decoder, project illustrations, and logo assets are served from `public/`. Keep these assets present for the animations to work. The browser uses WebGL and the Web Crypto API; use localhost for development and HTTPS when hosting.
+The current application requires no environment variables. The 3D model, decoder, project illustrations, and logo assets are served from `public/`. Keep these assets present for the animations to work properly.
 
 ## Checks and production build
 
@@ -55,7 +55,7 @@ The build runs TypeScript checks and writes the production website to `dist/`. P
 | Skill and certification logo assets | `public/images/skills/` and `public/images/certifications/` |
 | Page title and description | `index.html` |
 
-For professional projects, describe your own contribution using information approved for public sharing. A public source repository is optional. Project entries without a URL remain unlinked. Resume and credential links open in a new tab; their external sharing settings control whether visitors can view them.
+For professional projects, describe your own contribution using information approved for public sharing. A public source repository is optional. Project entries without a URL remain unlinked. Resume entries reference your contact information from `src/data/portfolio.ts`.
 
 ## Hosting
 
@@ -64,35 +64,10 @@ For a root-domain deployment on Netlify or Vercel, use:
 - Build command: `npm run build`
 - Publish/output directory: `dist`
 
-The site uses hash links for section navigation. Assets currently use root-relative paths such as `/models/` and `/images/`. Hosting under a repository subdirectory, including GitHub Pages project sites, requires adapting these paths and Vite's base path first.
+The site uses hash links for section navigation. Assets currently use root-relative paths such as `/models/` and `/images/`. Hosting under a repository subdirectory, including GitHub Pages project sites, requires updating asset paths in `index.html` and `src/components/styles/globals.css`.
 
-## Prepare your GitHub repository
+## License
 
-This checkout originally came from Moncy Yohannan's repository. Check the destination before pushing:
+This project is licensed under the Personal Portfolio License (PPL) v1.0. See the [LICENSE](LICENSE) file for details. This license restricts redistribution, commercial use, and reuse of original assets while permitting personal study and learning.
 
-```sh
-git remote -v
-git status
-```
-
-The owner's repository is [satyajit1025/portfolio](https://github.com/satyajit1025/portfolio). This workspace uses it as `origin` and retains the original source as `upstream`. For a checkout still pointing to the original source, update `origin` before pushing. Obtain the permissions described below before publication:
-
-```sh
-git remote set-url origin https://github.com/satyajit1025/portfolio.git
-git add .
-git diff --cached --stat
-git commit -m "Customize Satyajit Sahu portfolio"
-git push -u origin main
-```
-
-Dependencies, production output, TypeScript build caches, local environment files, and local agent settings are excluded by `.gitignore`. Review staged changes before committing.
-
-Ensure Git LFS is installed before pushing so the tracked GLB model is uploaded along with the repository.
-
-## Attribution and license
-
-The original portfolio implementation and design are by **Moncy Yohannan**:[author's website](https://www.moncy.dev/).
-
-The existing [Personal Portfolio License (PPL) v1.0](LICENSE) restricts redistribution, complete website replication, commercial use, and reuse of original assets. It also identifies the 3D assets as proprietary. **Obtain the original author's permission for redistribution and asset use before uploading or publishing this derivative.** Personalization does not replace that license or grant permission. The original license is retained in this repository.
-
-Third-party logo sources are recorded in [skill asset credits](public/images/skills/README.md) and [certification asset credits](public/images/certifications/README.md). The project uses GSAP from the npm dependency declared in `package.json`; the original README's trial-plugin instructions do not describe this dependency setup. Third-party dependencies and brand assets retain their respective terms.
+Third-party logo sources are recorded in [skill asset credits](public/images/skills/README.md) and [certification asset credits](public/images/certifications/README.md). The project uses GSAP from Greensock and Three.js as specified in `package.json`.
