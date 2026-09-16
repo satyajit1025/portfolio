@@ -91,7 +91,7 @@ Ensure Git LFS is installed before pushing so the tracked GLB model is uploaded 
 
 ## Attribution and license
 
-The original portfolio implementation and design are by **Moncy Yohannan**: [original repository](https://github.com/MoncyDev/Portfolio-Website), [author's website](https://www.moncy.dev/).
+The original portfolio implementation and design are by **Moncy Yohannan**:[author's website](https://www.moncy.dev/).
 
 The existing [Personal Portfolio License (PPL) v1.0](LICENSE) restricts redistribution, complete website replication, commercial use, and reuse of original assets. It also identifies the 3D assets as proprietary. **Obtain the original author's permission for redistribution and asset use before uploading or publishing this derivative.** Personalization does not replace that license or grant permission. The original license is retained in this repository.
 
