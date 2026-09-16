@@ -1,0 +1,153 @@
+// Sources: LinkedIn profile (2026-09-12) and https://ssahu-portfolio.netlify.app/ (2026-09-13).
+export const portfolio = {
+  firstName: "Satyajit",
+  lastName: "Sahu",
+  name: "Satyajit Sahu",
+  role: "Quality Assurance Engineer",
+  email: "satyajit1025@gmail.com",
+  phone: "+91 8249640446",
+  phoneHref: "tel:+918249640446",
+  location: "Angul, Odisha, India",
+  linkedin: "https://www.linkedin.com/in/satyajit-sahu1/",
+  resume: "https://drive.google.com/file/d/1C9acTEu1AnMeXHHCwMbagSaMvf8X8ub1/view?usp=drive_link",
+  github: "https://github.com/satyajit1025",
+  links: "https://linktr.ee/satyajit1025",
+  about: "Hey, I’m Satyajit, a Quality Assurance Engineer who enjoys finding what can go wrong and making sure users get a smooth, reliable experience. I work across manual, automation, API, and performance testing, from exploring applications and uncovering edge cases to building automation and validating APIs. I enjoy solving problems, learning new tools, and finding smarter ways to improve software quality. My goal is simple: help build software people can trust.",
+  capabilities: [
+{
+title: "MANUAL TESTING",
+description: "I validate end-to-end user experiences through functional, regression, smoke, exploratory and cross-browser testing, ensuring reliable releases and a consistent product experience.",
+tools: [
+"Functional Testing",
+"Regression Testing",
+"Smoke Testing",
+"Exploratory Testing",
+"Cross-browser Testing",
+"Test Case Design",
+"Bug Reporting",
+"Jira",
+"Zoho Projects",
+"SDLC",
+"STLC"
+],
+},
+{
+title: "AUTOMATION TESTING",
+description: "I build scalable UI automation suites using Selenium, Playwright and Cypress, applying BDD, reusable framework design and CI/CD integration for faster and more reliable releases.",
+tools: [
+"Java",
+"JavaScript",
+"Selenium",
+"Playwright",
+"Cypress",
+"Cucumber",
+"TestNG",
+"Maven",
+"GitLab CI",
+"BDD Frameworks",
+"Page Object Model"
+],
+},
+{
+title: "API TESTING",
+description: "I validate REST APIs through functional and automated testing, covering requests, responses, authentication, status codes, schemas and data integrity across services.",
+tools: [
+"Postman",
+"Rest Assured",
+"REST API",
+"JSON",
+"Java",
+"TestNG",
+"PostgreSQL",
+"API Automation"
+],
+},
+{
+title: "PERFORMANCE TESTING",
+description: "I evaluate application performance under different workloads to identify bottlenecks, measure response times and verify system stability, scalability and reliability.",
+tools: [
+"JMeter",
+"Load Testing",
+"Stress Testing",
+"Performance Testing",
+"Response Time Analysis",
+"Throughput Analysis",
+"Bottleneck Analysis"
+],
+},
+],
+  experience: [
+    {
+      role: "GIS Engineer",
+      company: "RAMTeCH Software Solutions",
+      dates: "Apr – Oct 2021",
+      year: "2021",
+      description: "Used GIS tools to plan and design cable routes in Bhubaneswar, Odisha. Applied ARAMIS and analytical skills to develop cost-effective technical solutions.",
+    },
+    {
+      role: "Graduate Apprenticeship Trainee",
+      company: "NALCO",
+      dates: "Nov 2021 – Nov 2022",
+      year: "2022",
+      description: "Completed a graduate apprenticeship at National Aluminium Company Limited in Angul, Odisha. Performed preventive maintenance, routine inspections and systematic troubleshooting in electrical engineering.",
+    },
+    {
+      role: "Quality Assurance Engineer",
+      company: "QpiAI",
+      dates: "May 2025 – Present",
+      year: "NOW",
+      description: "End-to-end QA across QpiAI web platforms, APIs and backend services. Built Selenium and BDD API automation, ran JMeter load tests and PostgreSQL data checks, and tracked defects and test documentation with development teams.",
+    },
+  ],
+  education: [
+    { course: "Software Development Engineering in Test", institution: "Masai School", dates: "2024 – 2025" },
+    { course: "B.Tech in Electrical Engineering", institution: "GITA, Bhubaneswar", dates: "Aug 2017 – Jun 2021" },
+  ],
+  credentials: [
+    { name: "Google Associate Cloud Engineer", issuer: "Google Cloud", url: "https://www.credly.com/badges/281e4706-fb75-4859-b1da-1e75d2ec803b/linked_in_profile" },
+    { name: "AWS Certified Cloud Practitioner", issuer: "Amazon Web Services", url: "https://www.credly.com/badges/5c44d676-8b39-4cf5-80bd-3681fb7f6efa/linked_in_profile" },
+    { name: "Employability Skills: Intermediate", issuer: "Wadhwani Foundation", url: "https://web.certificate.wfglobal.org/en/certificate?certificateId=653f6929167292d0fadb08b0" },
+    { name: "Software Development Engineering in Test", issuer: "Masai School", url: "https://drive.google.com/file/d/1GBJAaTu6yzcPXqQ70pr5yhy16rqvAXCy/view?usp=sharing" },
+  ],
+  achievements: ["xto10x Hackathon", "Speaking Marathon"],
+  softSkills: ["Attention to Detail", "Teamwork", "Time Management", "Effective Communication"],
+  projects: [
+    {
+      name: "QpiAI Quantum Platform Testing",
+      category: "Professional project · End-to-end QA",
+      description: "Tested quantum circuit execution, resource allocation and role-based access. Built UI and BDD API automation, ran load tests and verified database integrity.",
+      tools: "Selenium · Java · Maven · POM · TestNG · Cucumber · Postman · Rest Assured · JMeter · PostgreSQL",
+      image: "/images/projects/qpiai-quantum.svg",
+      url: undefined,
+    },
+    {
+      name: "QpiAI Explorer E-Learning Testing",
+      category: "Professional project · End-to-end QA",
+      description: "Tested enrollment, progress tracking, authentication and payment APIs. Built data-driven regression suites and evaluated scalability with concurrent users.",
+      tools: "Selenium · Java · Maven · TestNG · POM · Postman · Rest Assured · JMeter",
+      image: "/images/projects/qpiai-explorer.svg",
+      url: undefined,
+    },
+    {
+      name: "Demoblaze Testing Suite",
+      category: "Manual · UI automation · API testing",
+      description: "Combined manual, Selenium and API testing with a maintainable Page Object Model. Used Cucumber and Gherkin for executable BDD scenarios and collaborated on test coverage.",
+      tools: "Selenium · Java · Maven · Cucumber · Gherkin · Postman · POM · API Testing",
+      image: "/images/projects/demoblaze.svg",
+      url: "https://github.com/satyajit1025/Debugger-Squad.git",
+    },
+    {
+      name: "Thirsty Wine E-Commerce Testing",
+      category: "Cypress automation · Cross-browser QA",
+      description: "Built Cypress test suites for e-commerce flows using Page Object Model. Covered functionality, usability, exploratory edge cases and consistent experiences across browsers and devices.",
+      tools: "Cypress · JavaScript · POM · Cross-browser Testing · Exploratory Testing",
+      image: "/images/projects/thirsty-wine.svg",
+      url: "https://github.com/satyajit1025/B42_SDET_002_Test-Titans",
+    },
+  ],
+  // AI tools used for testing, as confirmed by Satyajit.
+  techStack: ["Java", "Selenium", "Playwright", "Cypress", "JavaScript", "TestNG", "JUnit", "Cucumber", "Maven", "Postman", "Rest Assured", "JMeter", "PostgreSQL", "GitLab CI", "TypeScript", "Jira", "Codex", "Claude Code", "GitHub Copilot"].map((name) => ({
+    name,
+    image: `/images/skills/${name.toLowerCase().replace(/\s+/g, "-")}.svg`,
+  })),
+};
